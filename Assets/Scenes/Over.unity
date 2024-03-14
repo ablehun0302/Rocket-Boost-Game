@@ -720,6 +720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1010575350}
+  - component: {fileID: 1010575351}
   m_Layer: 0
   m_Name: Obstacles
   m_TagString: Untagged
@@ -736,7 +737,7 @@ Transform:
   m_GameObject: {fileID: 1010575349}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.789701, y: 26.400743, z: -5.1784153}
+  m_LocalPosition: {x: 15, y: 26.400743, z: -5.1784153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -744,6 +745,20 @@ Transform:
   - {fileID: 2078473086}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1010575351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010575349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91addc4ed07341c479841f8965c762be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 30, y: 0, z: 0}
+  movementFactor: 0
 --- !u!4 &1015311828 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8115325458121438049, guid: a427c2f9a2b062f4b88c4e6e3b69d594, type: 3}
