@@ -724,6 +724,7 @@ GameObject:
   - component: {fileID: 5198641509413758514}
   - component: {fileID: -8818223315475408990}
   - component: {fileID: 4678686765003983355}
+  - component: {fileID: 4078625216396485532}
   - component: {fileID: 6858062796292511996}
   - component: {fileID: 8798089844278813849}
   m_Layer: 0
@@ -795,6 +796,18 @@ MonoBehaviour:
   successClip: {fileID: 8300000, guid: c8b4ec89988c10949a034a6944f466d0, type: 3}
   deathParticle: {fileID: 5188462995666208984}
   successParticle: {fileID: 6154625877419071451}
+--- !u!114 &4078625216396485532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6877450917402773702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a681083e8e38a7e43b8d867eb868a332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &6858062796292511996
 Rigidbody:
   m_ObjectHideFlags: 0
